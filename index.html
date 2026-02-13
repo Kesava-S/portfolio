@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -33,12 +35,16 @@
   <main>
     <section id="hero" class="hero-section">
       <div class="hero-content">
-        <h1 class="hero-title">Hello, I'm <span class="highlight">Kesavaram Sundararaj</span>.</h1>
-        <p class="hero-subtitle">Specializing in <span class="typing-text"></span></p>
+        <h1 class="hero-title">Kesavaram Sundararaj</h1>
+        <div class="hero-roles">
+          <div class="role-item">Entrepreneur</div>
+          <div class="role-item">Marketing Management Enthusiast</div>
+          <div class="role-item">Digital Workflow Designer</div>
+        </div>
         <a href="#experience" class="cta-button">View My Experience</a>
       </div>
       <div class="hero-visual">
-        <div class="blob"></div>
+        <img src="profile.jpg" alt="Kesavaram Sundararaj" class="hero-image" />
       </div>
     </section>
 
@@ -47,24 +53,46 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-grid">
           <div class="about-text">
-            <p>Marketing Analytics student at Birkbeck University of London with hands-on experience in IT and marketing
-              operations, gained while working at Tata Consultancy Services (TCS) supporting Tapestry, Inc. and its
-              brands Kate Spade, Coach, and Stuart Weitzman. Responsible for website functionality across production and
-              staging environments during critical sales periods and product launches. Strong understanding of brand
-              management, consumer analysis, and data-driven marketing strategy.</p>
-            <div class="skills-list">
-              <span class="skill-tag">Marketing Analytics</span>
-              <span class="skill-tag">Brand Management</span>
-              <span class="skill-tag">Consumer Analysis</span>
-              <span class="skill-tag">Data Driven Strategy</span>
-              <span class="skill-tag">JIRA</span>
-              <span class="skill-tag">OMS Tools</span>
+            <p>Hi, I’m Kesav S., a passionate digital automation entrepreneur and innovator. I help businesses and
+              individuals unlock efficiency by creating personalized Integrated Automation solutions that simplify
+              everyday tasks and drive growth. With a background in marketing analytics from Birkbeck, University of
+              London, I combine data-driven insights with cutting-edge technology to deliver results that matter. My
+              mission is to empower people and businesses to focus on what truly counts while automation handles the
+              rest.</p>
+            <div class="company-promo"
+              style="margin-top: 2rem; padding-top: 1rem; border-top: 2px solid var(--accent-color);">
+              <p style="font-weight: 700; margin-bottom: 0.5rem; color: var(--primary-color);">Automaitee Digital –
+                Automations Personalized</p>
+              <a href="https://www.automaitee.com/" target="_blank"
+                style="font-weight: 600; color: var(--text-color); border-bottom: 2px solid var(--primary-color);">https://www.automaitee.com/</a>
             </div>
           </div>
           <div class="about-image">
-            <!-- Placeholder for profile image -->
-            <div class="image-placeholder"></div>
+            <div class="image-placeholder logo-container">
+              <img src="automaitee-logo.png" alt="Automaitee Digital Logo" class="about-logo" />
+            </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Educational Background</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-info">
+              <h3>Master's - Marketing Analytics (2025 - 2026)</h3>
+              <p class="role-subtitle" style="border-bottom: none;">Birkbeck, University Of London - London, UK.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-info">
+              <h3>Bachelor’s - Computer Applications (2017 - 2020)</h3>
+              <p class="role-subtitle" style="border-bottom: none;">ANJAC, Madurai Kamaraj University - Tamilnadu,
+                India.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -118,7 +146,7 @@
     <section id="contact" class="section contact-section">
       <div class="container">
         <h2 class="section-title">Get In Touch</h2>
-        <p>138, Bakersfield, Crayford Road, Holloway, London. N7 0LU</p>
+        <p>Flat 7, Brodie House, Bermondsey, London. SE1 5HX</p>
         <p>+44 7818 657095</p>
         <div class="contact-links">
           <a href="mailto:kesavperso@gmail.com" class="contact-button">Email Me</a>
